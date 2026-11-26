@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OMAKA · Coffee Bar · Matcha · Crêpes</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              brand: ['"Playfair Display"', 'Georgia', 'serif'],
+              display: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+              body: ['"DM Sans"', 'system-ui', 'sans-serif'],
+              script: ['"Dancing Script"', 'cursive'],
+            },
+            colors: {
+              espresso: '#1a0e08',
+              roast: '#261508',
+              bark: '#3a2010',
+              'bark-mid': '#5c3820',
+              cream: '#e8ddd1',
+              parchment: '#f4ede4',
+              foam: '#faf6f1',
+              sand: '#d4c5b4',
+              matcha: '#6b7f52',
+              pistachio: '#8a9e6e',
+              latte: '#c4a882',
+            },
+          },
+        },
+      };
+    </script>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="min-h-full bg-espresso font-body text-cream">
+    <div id="root" class="min-h-full"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>

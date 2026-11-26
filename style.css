@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Sans:wght@300;400;500;600&family=Dancing+Script:wght@400;600&display=swap");
+
+:root {
+  --font-brand: "Playfair Display", Georgia, serif;
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+  --font-script: "Dancing Script", cursive;
+
+  --color-espresso: #1a0e08;
+  --color-roast: #261508;
+  --color-bark: #3a2010;
+  --color-bark-mid: #5c3820;
+
+  --color-cream: #e8ddd1;
+  --color-parchment: #f4ede4;
+  --color-foam: #faf6f1;
+  --color-sand: #d4c5b4;
+
+  --color-matcha: #6b7f52;
+  --color-pistachio: #8a9e6e;
+  --color-latte: #c4a882;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background-color: var(--color-espresso);
+  color: var(--color-cream);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus-visible {
+  outline: 2px solid var(--color-latte);
+  outline-offset: 3px;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-bark-mid) transparent;
+}
+
+@keyframes wave {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(16deg);
+  }
+  75% {
+    transform: rotate(-8deg);
+  }
+}
+
+.animate-wave {
+  animation: wave 1.8s ease-in-out 0.4s 2;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
