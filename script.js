@@ -1,15 +1,15 @@
 // ===== IMÁGENES =====
 const IMAGES = {
-  brandDark: "./imports/627602842_17844436923689078_7708979460183207095_n.jpg",
-  storeAwning: "./imports/637800200_17847439629689078_7842886487961952353_n.jpg",
-  storeOutside: "./imports/655614404_17851915215689078_1120208256158658873_n.jpg",
-  pistachioLatte: "./imports/656595514_1912655296281171_6550121062891863980_n.jpg",
-  coffeeBeans: "./imports/657319664_17852815017689078_2234817550232075518_n.jpg",
-  storeIllustration: "./imports/727799395_17866945680689078_6926977040742980940_n.jpg",
-  pistachioTray: "./imports/Captura_de_pantalla_2026-09-02_a_la_s__5.34.50_p.m..png",
-  personBack: "./imports/Captura_de_pantalla_2026-09-02_a_la_s__5.34.31_p.m..png",
-  espresso: "./imports/Captura_de_pantalla_2026-09-02_a_la_s__5.34.39_p.m..png",
-  matchaCup: "./imports/Captura_de_pantalla_2026-09-02_a_la_s__5.34.24_p.m..png",
+  brandDark: "./627602842_17844436923689078_7708979460183207095_n.jpg",
+  storeAwning: "./637800200_17847439629689078_7842886487961952353_n.jpg",
+  storeOutside: "./655614404_17851915215689078_1120208256158658873_n.jpg",
+  pistachioLatte: "./656595514_1912655296281171_6550121062891863980_n.jpg",
+  coffeeBeans: "./657319664_17852815017689078_2234817550232075518_n.jpg",
+  storeIllustration: "./727799395_17866945680689078_6926977040742980940_n.jpg",
+  pistachioTray: "./Captura_de_pantalla_2026-09-02_a_la_s__5.34.50_p.m..png",
+  personBack: "./Captura_de_pantalla_2026-09-02_a_la_s__5.34.31_p.m..png",
+  espresso: "./Captura_de_pantalla_2026-09-02_a_la_s__5.34.39_p.m..png",
+  matchaCup: "./Captura_de_pantalla_2026-09-02_a_la_s__5.34.24_p.m..png",
 };
 
 // ===== DATOS =====
